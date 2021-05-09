@@ -3,14 +3,16 @@
 教材URL: https://nlp100.github.io/ja/  
 
 毎週全員1章分（10問）解いてください。(※ただし2章は除く)  
-勉強会のときに1人1章分、自分のコードを説明してもらいます。  
+勉強会のときに毎週1人1章分、自分のコードを説明してもらいます。  
 
 # usage
 初回はこのレポジトリを clone してください。  
-
 ``
 $ git clone https://github.com/tmu-nlp/100knock2021
 ``
+
+各Chapterのディレクトリへ移動したら、ブランチを切って、自分用の作業用ブランチで作業してください。  
+ブランチの名前は自分の名前にしてください(例：sakata_masaki)  
 コードを書いたら自身のブランチの remote repository に push してください。 ファイル名はすべて二桁の数字にしてください（例: knock00.py）  
 ```
 $ git pull
@@ -18,6 +20,7 @@ $ git add ./knockXX.py
 $ git commit -m 'your message'
 $ git push origin your_brunch
 ```
+毎週の1章分の担当者のコードレビューを行い、問題がなければ、mainへマージされます。
 
 # 注意事項
 わからないところは積極的に TA か研究室の人に聞いてください。 
