@@ -11,16 +11,24 @@
 $ git clone https://github.com/tmu-nlp/100knock2021
 ``
 
-各Chapterのディレクトリへ移動したら、ブランチを切って、自分用の作業用ブランチで作業してください。  
-ブランチの名前は自分の名前にしてください(例：sakata_masaki)  
+各Chapterのはじめでは、各Chapterのディレクトリへ移動し、ブランチを切って、自分用の作業用ブランチで作業してください。  
+ブランチの名前は自分の名前にしてください(例：北大太郎の場合、hokudai_taro)
+```
+# 取り組むChapterへ移動
+$ cd chapter1
+#新規ブランチ作成
+$ git branch hokudai_taro
+#作成したブランチに切り替え
+$ git checkout hokudai_taro
+```
+
 コードを書いたら自身のブランチの remote repository に push してください。 ファイル名はすべて二桁の数字にしてください（例: knock00.py）  
 ```
-$ git pull
 $ git add ./knockXX.py
 $ git commit -m 'your message'
-$ git push origin your_brunch
+$ git push origin hokudai_taro
 ```
-毎週の1章分の担当者のコードレビューを行い、問題がなければ、mainへマージされます。
+毎週1章分の担当者が書いたコードのレビューを行い、問題がなければ、mainへマージされます。
 
 # 注意事項
 わからないところは積極的に TA か研究室の人に聞いてください。 
