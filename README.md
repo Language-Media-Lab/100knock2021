@@ -23,8 +23,8 @@ $ git checkout hokudai_taro
 ```
 
 コードを書いたら自身のブランチの remote repository に push してください。  
-Pythonで書いた場合、ファイル名はすべて二桁の数字にしてください（例: knock00.py）  
-google colab等で書いた場合、ファイル名は各Chapterの数字にしてください。（例: chapter01.ipynb）    
+- Pythonで書いた場合、ファイル名はすべて二桁の数字にしてください（例: knock00.py）  
+- google colab等で書いた場合、ファイル名は各Chapterの数字にしてください。（例: chapter01.ipynb）    
 ```
 $ git add ./knockXX.py
 $ git commit -m 'your message'
