@@ -22,7 +22,9 @@ $ git branch hokudai_taro
 $ git checkout hokudai_taro
 ```
 
-コードを書いたら自身のブランチの remote repository に push してください。 ファイル名はすべて二桁の数字にしてください（例: knock00.py）  
+コードを書いたら自身のブランチの remote repository に push してください。  
+Pythonで書いた場合、ファイル名はすべて二桁の数字にしてください（例: knock00.py）  
+google colab等で書いた場合、ファイル名は各Chapterの数字にしてください。（例: chapter01.ipynb）    
 ```
 $ git add ./knockXX.py
 $ git commit -m 'your message'
@@ -34,5 +36,5 @@ $ git push origin hokudai_taro
 わからないところはSlack等で**積極的に** TA か研究室の人に聞いてください。     
 
 # メモ・相談事項
-・ブランチ名は本名でなくてもおｋとする?  
-・ファイル形式は統一する? それとも混合でおｋ?(.pyもしくは.ipynb)  
+・ブランチ名は本名でなくてもokとする?  
+・ファイル形式は.pyもしくは.ipynbが考えられるが、統一する? それとも混合でok?
