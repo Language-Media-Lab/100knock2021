@@ -8,7 +8,7 @@
 # usage
 初回はこのレポジトリを clone してください。  
 ```
-$ git clone https://github.com/tmu-nlp/100knock2021
+$ git clone https://github.com/Language-Media-Lab/100knock2021.git
 ```
   
 各Chapterのはじめでは、各Chapterのディレクトリへ移動し、ブランチを切って、自分用の作業用ブランチで作業してください。  
