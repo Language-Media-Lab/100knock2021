@@ -40,18 +40,18 @@ $ git checkout hokudai_taro
 ```
 
 コードを書いたら自身のブランチの remote repository に push してください。  
-- ~Pythonで書いた場合、ファイル名はすべて二桁の数字にしてください（例: knock00.py）~
+- ~Pythonで書いた場合、ファイル名はすべて二桁の数字にしてください（例: knock01.py）~
 - ~google colab等で書いた場合、ファイル名は各Chapterの数字にしてください。（例: chapter01.ipynb）~  
 
 **2021/09/28追記**
-- Pythonで書いた場合、ファイル名はすべて二桁の数字 & 自分の名前を入れてください（例: knock00_taro.py）
+- Pythonで書いた場合、ファイル名はすべて二桁の数字 & 自分の名前を入れてください（例: knock01_taro.py）
 - google colab等で書いた場合、ファイル名は各Chapterの数字 & 自分の名前を入れてください。（例: chapter01_taro.ipynb）
 ```
-$ git add ./knockXX.py
+$ git add ./knockXX_taro.py
 $ git commit -m 'your message'
 $ git push origin hokudai_taro
 ```
-毎週1章分の担当者が書いたコードのレビューを行い、問題がなければ、mainへマージされます。  
+毎週1章分の担当者が書いたコードのレビューを行い、問題がなければ、mainへマージしてください．  
 **毎週各章のマージまで終わらせて，その日の勉強会を終わらせてください**
 
 # 注意事項
