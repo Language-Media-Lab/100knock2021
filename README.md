@@ -5,10 +5,27 @@
 毎週全員1章分（10問）解いてください。(※ただし2章は除く)  
 勉強会のときに毎週1人1章分、自分のコードを説明してもらいます。  
 
+# Githubについて
+基本的にGithubを用いて， ソースコードの管理を行います．  
+Githubの使い方がわからない方は以下のサイトがおすすめです．  
+https://prog-8.com/courses/git  
+このサイトでは1時間ほどで， Gitの基本的な概念を理解することができます．  
+チュートリアルを始める前に， 一度目を通しておいてください．  
+
+**2021/09/28追記**
+githubがhttpsでのcloneは許可しないように変わったため，　`$ git clone https://github.com/Language-Media-Lab/100knock2021.git`は使えなくなりました．  
+なので， sshの設定をして， ssh接続でcloneする必要があります．  
+そのための，ssh接続の設定をまず行う必要があります．  
+
+## GitHubでssh接続する手順
+以下のサイトの手順通りにやるとできます．  
+https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+わからない点があればどんなことでもTAへ質問してください．  
+
 # usage
-初回はこのレポジトリを clone してください。  
+初回はこのレポジトリを clone してください。  　　
 ```
-$ git clone https://github.com/Language-Media-Lab/100knock2021.git
+$ git clone git@github.com:Language-Media-Lab/100knock2021.git
 ```
   
 各Chapterのはじめでは、各Chapterのディレクトリへ移動し、ブランチを切って、自分用の作業用ブランチで作業してください。  
