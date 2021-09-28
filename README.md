@@ -15,11 +15,11 @@ https://prog-8.com/courses/git
 **2021/09/28追記**  
 githubがhttpsでのcloneは許可しないように変わったため，　`$ git clone https://github.com/Language-Media-Lab/100knock2021.git`は使えなくなりました．  
 代わりに，ssh接続によるcloneが推奨されています．  
-なので， まずはGithubでのssh接続の設定を行う必要があります．  
+なので，まずはGithubでのssh接続の設定を行う必要があります．  
 
 ## GitHubでssh接続する手順
 以下のサイトの手順通りにやるとできます．  
-https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+https://qiita.com/shizuma/items/2b2f873a0034839e47ce  
 わからない点があればどんなことでもTAへ質問してください．  
 
 # usage
